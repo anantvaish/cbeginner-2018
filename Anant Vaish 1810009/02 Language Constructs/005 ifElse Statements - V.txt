@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int marks;
+printf("enter an integer ");
+scanf("%d",&marks);
+if(marks<35)
+{
+printf("you are failed \n");
+}
+else if (marks>=35 && marks<50)
+{
+printf("you have done ok \n");
+}
+else if (marks>=50 && marks<80)
+{
+printf("your marks are great ");
+}
+return 0;
+}

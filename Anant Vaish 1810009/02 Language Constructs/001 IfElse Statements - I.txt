@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+int bIsRaining=0;
+printf("Is it raining? Enter 1 if yes");
+scanf("%d", &bIsRaining);
+if(bIsRaining==1)
+{
+printf("Its raing - carry an umbrella");
+printf("Also, remember to wear boots!");
+}
+}

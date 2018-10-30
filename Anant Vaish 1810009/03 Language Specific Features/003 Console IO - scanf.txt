@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+int age;
+char name[100];
+printf("\nPlease enter your name, age \n");
+scanf("%s%d", &name, &age);
+printf("your name- %s \n", name);
+printf("your age- %d", age);
+}

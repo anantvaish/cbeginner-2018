@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+int temperatureInCelsius;
+int bHotDay;
+printf ("Please enter the temperature in celsius");
+scanf("%d", &temperatureInCelsius);
+if(temperatureInCelsius>35)
+bHotDay=1;
+else
+bHotDay=0;
+return 0;
+}

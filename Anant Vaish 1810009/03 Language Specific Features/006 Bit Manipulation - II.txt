@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main()
+{
+char x='A';
+char z= x>>3;
+}

@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+inputAge:
+int ageInYears=0;
+printf("please enter your age ");
+scanf("%d", &ageInYears);
+if (ageInYears<=0)
+goto inputAge;
+printf("your age is %d ", ageInYears);
+return 0;
+}

@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+int day=2;
+char month[20]="January";
+char date[100];
+sprintf(date, "the date is %s %d",month,day);
+printf("%s",date);
+}

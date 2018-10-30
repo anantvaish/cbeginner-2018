@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+int temperatureInCelsius=0;
+int bWindy;
+switch(temperatureInCelsius < 15 && bWindy == 1)
+{
+
+case !bWindy:
+
+printf("cold day");
+
+break;
+
+default:
+
+printf("hot day");
+}
+return 0;
+}

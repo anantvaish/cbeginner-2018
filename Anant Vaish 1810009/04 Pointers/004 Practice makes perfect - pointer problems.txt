@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+int length=10;
+int breadth=5;
+int *length_ptr=&length;
+int *breadth_ptr=&breadth;
+printf("printing dereferenced pointers \n ");
+printf("%d\n", *length_ptr);
+printf("%d\n", *breadth_ptr);
+}

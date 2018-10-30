@@ -1,0 +1,24 @@
+#include <stdio.h>
+ 
+
+int main () 
+{
+   
+int tempreture;
+   
+printf( "enter the tempreture %d\n");
+   
+scanf("%d", &tempreture);
+   
+if(tempreture>35)
+   
+printf("it is a hot day");
+   
+else
+   
+printf("it is a cold day");
+ 
+   
+return 0;
+
+}

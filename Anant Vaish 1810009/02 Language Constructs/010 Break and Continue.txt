@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+int bEarnedDrivingLicense;
+int numAttempts;
+do
+{
+printf("Practice makes perfect \n");
+printf("Retake test. Passed? Enter 1 if yes \n");
+scanf("%d", &bEarnedDrivingLicense);
+numAttempts++;
+if (bEarnedDrivingLicense == 1)
+printf ("celebrate");
+else
+{
+if(numAttempts>=5)
+break;
+else
+continue;
+}
+}
+while(bEarnedDrivingLicense==0);
+return 0;
+}
